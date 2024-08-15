@@ -8,6 +8,11 @@
     font-weight: 900;
     text-transform: uppercase;
 }
+
+.commonContents h6 {
+    font-size: 18px;
+}
+
 .commonContents strong {
     font-size: 22px;
     font-weight: 800;
@@ -15,20 +20,24 @@
     display: block;
     margin-top: 25px;
 }
+
 .commonContents p {
     margin: 15px 0;
 }
+
 .commonContents a {
     color: #212EA0;
 }
 
-@media(max-width:992px){
+@media(max-width:992px) {
     .commonContents h3 {
         font-size: 24px;
     }
+
     .commonContents p {
         text-align: justify;
     }
+
     .commonContents strong {
         font-size: 18px;
     }

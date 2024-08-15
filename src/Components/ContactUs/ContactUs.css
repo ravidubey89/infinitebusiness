@@ -1,30 +1,57 @@
-.contact-row h2{
+.contact-row h2 {
     margin-top: 40px;
-    margin-bottom: 40px;
 }
+
 .contactHero {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(#11534d, rgba(10 8 110 / 70%)), url(../home-banner.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  }
-  .contactHero h1 {
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(#000, rgba(0 0 0 / 80%)), url(../home-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.contact-row p {
+    text-align: center;
+    display: table;
+    max-width: 800px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.contact-row h5 {
+    text-align: center;
+}
+
+.contact-row h6 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.contactHero h1 {
     max-width: 665px;
-      margin: 0 auto;
-      position: absolute;
-      top: 24%;
-      left: 49%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-  }
+    margin: 0 auto;
+    position: absolute;
+    top: 24%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .contact-flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
+
+.contact-flex h6 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
 .contact-details {
     background-color: #f1f1ec;
     padding: 30px 15px;
@@ -35,17 +62,24 @@
     border: 1px solid #ccc;
     width: 100%;
     max-width: 300px;
-    
+
 }
+
+.contact-details svg {
+    font-size: 32px;
+    color: #dc850d;
+}
+
 .contact-details strong {
     margin-bottom: 15px;
     margin-top: 15px;
     font-size: 18px;
     display: block;
 }
+
 .contact-details img {
     max-width: 50px;
-   
+
     margin: 0 auto;
     display: table;
 }

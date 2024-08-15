@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
 }
 
 .why_choose_flex p {
@@ -19,14 +19,37 @@
 }
 
 .why_choose {
-  background-color: #e9dece;
-  padding: 30px 15px;
-  padding-top: 50px;
+  background-color: #f1f1ec;
+  padding: 20px;
   border-radius: 15px;
   border: 1px solid #ccc;
-  width: 46%;
+  width: 48%;
   position: relative;
-  margin-top: 8%;
+  margin-top: 4%;
+}
+
+.why_choose ul {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+}
+
+.why_choose ul li {
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.why_choose ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+  left: -27px;
+  border-radius: 50%;
+  top: 8px;
+
 }
 
 .why_choose img {
@@ -45,8 +68,18 @@
 .why_choose h4 {
   margin-bottom: 15px;
   display: block;
+  font-size: 24px;
 }
 
+.service_footer {
+  text-align: left;
+  margin-top: 30px;
+
+}
+
+.service_footer p {
+  text-align: left;
+}
 
 @media(max-width:992px) {
   .why_choose {

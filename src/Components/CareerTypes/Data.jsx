@@ -18,7 +18,7 @@ const CareerTypesData = {
       description:
         "We partner with large fleet carriers to provide comprehensive logistics solutions for our clients. Our collaborative approach ensures that we can meet the demands of large-scale operations, offering consistent freight, streamlined processes, and robust support services.",
     },
-    
+
   ],
 };
 export default CareerTypesData;

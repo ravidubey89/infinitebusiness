@@ -6,13 +6,20 @@ import { Link } from "react-router-dom";
 const OurCommitment = () => {
   const data = ProductData;
   return (
-    <div className="career-row">
+    <div className="career-row-align">
       <div className="container">
-      <h3>Our Commitment to Carrier Success</h3>
-      <p>At Infinite Epicenter, we believe that our success is built on the success of our carriers. We are committed to fostering strong, mutually beneficial relationships with our carrier partners. We value transparency, communication, and collaboration, and we strive to create an environment where our carriers can thrive.</p>
-      <p>Our carrier onboarding process is designed to be smooth and efficient, ensuring that you can start hauling freight as quickly as possible. We provide clear expectations, comprehensive training, and ongoing support to help you succeed. We also offer opportunities for feedback and collaboration, so we can continually improve our processes and services.</p>
-    
-    </div>
+        <h3>Our Core Values:
+        </h3>
+        <ul>
+          <li><strong>Integrity: </strong> We operate with honesty and transparency in all our interactions. </li>
+          <li><strong>Excellence: </strong> We pursue excellence in every aspect of our work. </li>
+          <li><strong>Innovation: </strong> We embrace forward-thinking solutions to tackle today’s challenges. </li>
+          <li><strong>Client Focus: </strong> We prioritize your needs and goals in every strategy we develop. </li>
+        </ul>
+        <p>Discover more about our team and their expertise. Meet the Team
+        </p>
+
+      </div>
     </div>
   );
 };

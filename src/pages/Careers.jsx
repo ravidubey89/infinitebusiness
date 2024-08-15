@@ -13,12 +13,12 @@ const Product = () => {
     <div>
       <Navbar />
       <Hero />
-      <Careers/>
-      <WhyPartner/>
-      <CareerTypes/>
-      <OurCommitment/>
-      <Footer/>
-      
+      <Careers />
+      <WhyPartner />
+      {/* <CareerTypes/> */}
+      <OurCommitment />
+      <Footer />
+
     </div>
   )
 }

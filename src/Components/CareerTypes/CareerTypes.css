@@ -23,15 +23,15 @@
 }
 
 .services {
-  background-color: #ddedeb;
+  background-color: #f1f1ec;
   padding: 30px 15px;
   padding-top: 50px;
   text-align: center;
   border-radius: 15px;
   border: 1px solid #ccc;
-  width: 46%;
+  width: 30%;
   position: relative;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 .services img {
@@ -41,10 +41,11 @@
   position: absolute;
   top: -40px;
   left: 50%;
-  background-color: #3fd3a0;
+  background: rgba(255, 255, 255, 0.7);
   padding: 6px;
   border-radius: 6px;
   transform: translate(-50%, 0px);
+  border: 2px solid #ccc;
 }
 
 .services strong {

@@ -8,10 +8,15 @@ const Careers = () => {
   return (
     <div className="career-row">
       <div className="container">
-      <h3>Carriers at Infinite Epicenter: Partnering for Success</h3>
-      <p>At Infinite Epicenter, we believe in the power of strong partnerships. Our carriers are the backbone of our operations, and we value their role in delivering exceptional service to our customers. We work closely with a network of reliable and professional carriers, ensuring that each shipment is handled with the utmost care and efficiency. Whether you are an independent owner-operator or a large fleet carrier, Infinite Epicenter offers a range of opportunities to grow your business and maximize your potential.</p>
-    
-    </div>
+        <h2>Who We Are
+        </h2>
+        <h5 className='sub-heading'>About Infinite Epicenter
+
+        </h5>
+        <p>Infinite Epicenter is a premier business consultancy firm committed to unlocking your business’s potential. Founded on principles of integrity, innovation, and excellence, we partner with you to navigate complex business landscapes and achieve sustainable growth.
+        </p>
+
+      </div>
     </div>
   );
 };
