@@ -24,8 +24,6 @@
 
 .services {
   background-color: #f1f1ec;
-  padding: 30px 15px;
-  padding-top: 50px;
   text-align: center;
   border-radius: 15px;
   border: 1px solid #ccc;
@@ -37,15 +35,9 @@
 .services img {
   display: table;
   margin-bottom: 15px;
-  max-width: 70px;
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  background: rgba(255, 255, 255, 0.7);
-  padding: 6px;
+  max-width: 100%;
+  position: relative;
   border-radius: 6px;
-  transform: translate(-50%, 0px);
-  border: 2px solid #ccc;
 }
 
 .services strong {

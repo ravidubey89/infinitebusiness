@@ -1,7 +1,6 @@
 import React from "react";
 import ServiceData from "./Data";
 import "./Services.css";
-
 const Services = () => {
   const data = ServiceData;
   return (
@@ -18,9 +17,15 @@ const Services = () => {
           {data.service.map((item) => {
             return (
               <div className="services">
-                <span className="icons">{item.icon}</span>
-                <strong>{item.heading}</strong>
-                <p>{item.description}</p>
+
+                <img
+                  src={item.icon}
+                  alt="Picture of the author"
+                />
+                <div className="service_space">
+                  <strong>{item.heading}</strong>
+                  <p>{item.description}</p>
+                </div>
               </div>
             );
           })}
