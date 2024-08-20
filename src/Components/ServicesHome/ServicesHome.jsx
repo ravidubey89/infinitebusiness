@@ -16,7 +16,7 @@ const ServicesHome = () => {
           </div>
 
           <div className="why_choose_image">
-            <img src="/core-values.jpg" />
+            <img src="/core-services.jpg" />
           </div>
 
         </div>

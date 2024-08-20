@@ -64,7 +64,7 @@ const Services = () => {
 
           <div className="why_choose_flex">
             <div className="why_choose_image">
-              <img src="/core-values.jpg" />
+              <img src="/Financial-Strategy.jpg" />
             </div>
             <div className="why_choose">
               <h4>Financial Consulting
