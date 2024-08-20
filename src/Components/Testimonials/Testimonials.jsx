@@ -13,7 +13,6 @@ const Testimonials = () => {
           {data.service.map((item) => {
             return (
               <div className="testimonial">
-                
                 <p>{item.description}</p>
                 <strong>{item.heading}</strong>
               </div>
