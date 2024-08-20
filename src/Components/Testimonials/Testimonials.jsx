@@ -5,16 +5,17 @@ import { LuTarget } from "react-icons/lu";
 const Testimonials = () => {
   const data = TestimonialsData;
   return (
-    <div className="insight-row">
+    <div className="testimonial-row">
       <div className="container">
         <h2>Testimonials</h2>
 
-        <div className="insight-flex">
+        <div className="testimonial-flex">
           {data.service.map((item) => {
             return (
-              <div className="insight">
-                <strong>{item.heading}</strong>
+              <div className="testimonial">
+                
                 <p>{item.description}</p>
+                <strong>{item.heading}</strong>
               </div>
             );
           })}
