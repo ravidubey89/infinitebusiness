@@ -1,0 +1,50 @@
+.insight-row {
+  margin-top: 30px;
+}
+
+.insight-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+
+.insight {
+  background-color: #e8f3f6;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  width: 30%;
+  position: relative;
+  margin-top: 3%;
+  padding: 20px;
+  text-align: justify;
+}
+
+.insight img {
+  display: table;
+  margin-bottom: 15px;
+  max-width: 100%;
+  position: relative;
+  border-radius: 6px;
+}
+
+.insight strong {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 22px;
+}
+
+@media(max-width:992px) {
+  .insight {
+    width: 48%;
+
+  }
+}
+
+@media(max-width:767px) {
+  .insight {
+    width: 100%;
+  }
+}

@@ -31,7 +31,7 @@
   border: 1px solid #ccc;
   width: 48%;
   position: relative;
-  margin-top: 4%;
+
 
 }
 
@@ -108,7 +108,7 @@
 @media(max-width:992px) {
   .why_choose {
     width: 48%;
-    margin-top: 15%;
+    
   }
 }
 

@@ -22,7 +22,7 @@
   border: 1px solid #ccc;
   width: 30%;
   position: relative;
-  margin-top: 4%;
+ 
 }
 
 .services::before {
@@ -69,7 +69,7 @@
 @media(max-width:992px) {
   .services {
     width: 48%;
-    margin-top: 15%;
+   
   }
 }
 

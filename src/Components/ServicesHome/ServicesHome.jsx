@@ -9,21 +9,22 @@ const ServicesHome = () => {
         <p>"Welcome to Infinite Epicenter, where your business success is our mission. In an ever-evolving marketplace, staying ahead of the curve is crucial. Our team of seasoned consultants is here to guide you through the complexities of today’s business environment, ensuring you have the insights, strategies, and tools to thrive."
         </p>
         <div className="why_choose_flex">
+        <div className="why_choose_image">
+            <img src="/core-services.jpg" />
+          </div>
           <div className="why_choose">
             <h4>Key Services Overview</h4>
             <p>"At Infinite Epicenter, we specialize in delivering tailored solutions that address the unique challenges of your industry. Our services range from strategic planning and operational optimization to market research and financial consulting. Whether you're a startup or an established enterprise, our goal is to help you achieve sustainable growth and long-term success."
             </p>
           </div>
 
-          <div className="why_choose_image">
-            <img src="/core-services.jpg" />
-          </div>
+          
 
         </div>
 
         <div className="why_choose_flex">
-          <div className="why_choose_image desktop_image">
-            <img src="/core-values.jpg" />
+          <div className="why_choose_image mobile_image">
+            <img src="/Business-Consulting.jpg" />
           </div>
           <div className="why_choose">
             <h4>What is business consulting?</h4>
@@ -36,8 +37,8 @@ const ServicesHome = () => {
 
             </p>
           </div>
-          <div className="why_choose_image mobile_image">
-            <img src="/core-values.jpg" />
+          <div className="why_choose_image desktop_image">
+          <img src="/Business-Consulting.jpg" />
           </div>
 
 
@@ -45,33 +46,20 @@ const ServicesHome = () => {
         </div>
 
         <div className="why_choose_flex">
+        <div className="why_choose_image">
+            <img src="/why-choose-us.jpg" />
+          </div>
           <div className="why_choose">
             <h4>Why Choose Us</h4>
             <p>"We understand that every business is different. That’s why our consultancy approach is never one-size-fits-all. We take the time to understand your specific needs, challenges, and objectives, crafting bespoke strategies that drive real results. Our commitment to excellence, combined with our extensive industry experience, makes us the partner of choice for businesses looking to excel."
             </p>
           </div>
 
-          <div className="why_choose_image">
-            <img src="/why-choose-us.jpg" />
-          </div>
+         
 
         </div>
 
-        <div className="why_choose_flex">
-          <div className="why_choose_image des">
-            <img src="/core-values.jpg" />
-          </div>
-          <div className="why_choose">
-            <h4>Client Testimonials
-            </h4>
-            <p>"Don’t just take our word for it—hear what our clients have to say. 'Working with Infinite Epicenter was a game-changer for our business. Their insights and strategies helped us streamline our operations and significantly increase our profitability.' - [Client Name], [Client Company]"
-
-            </p>
-          </div>
-
-
-
-        </div>
+       
 
 
 

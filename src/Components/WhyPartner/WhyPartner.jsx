@@ -25,7 +25,9 @@ const WhyPartner = () => {
           </div>
 
           <div className="why_choose_flex">
-
+          <div className="why_choose_image mobile_image">
+              <img src="/operation-efficiency.jpg" />
+            </div>
             <div className="why_choose">
               <h4>Our Story</h4>
               <p>
@@ -33,7 +35,7 @@ const WhyPartner = () => {
 
               </p>
             </div>
-            <div className="why_choose_image">
+            <div className="why_choose_image desktop_image">
               <img src="/operation-efficiency.jpg" />
             </div>
           </div>
@@ -56,7 +58,9 @@ const WhyPartner = () => {
           </div>
 
           <div className="why_choose_flex">
-
+          <div className="why_choose_image mobile_image">
+              <img src="/our-team.jpg" />
+            </div>
             <div className="why_choose">
               <h4>Our Team</h4>
               <p>
@@ -64,7 +68,7 @@ const WhyPartner = () => {
 
               </p>
             </div>
-            <div className="why_choose_image">
+            <div className="why_choose_image desktop_image">
               <img src="/our-team.jpg" />
             </div>
           </div>

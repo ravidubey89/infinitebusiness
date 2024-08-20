@@ -17,7 +17,9 @@ const Services = () => {
 
 
           <div className="why_choose_flex">
-
+            <div className="why_choose_image">
+                <img src="/Strategic-Planning.jpg" />
+              </div>
             <div className="why_choose">
               <h4>Strategic Planning
               </h4>
@@ -26,13 +28,11 @@ const Services = () => {
 
               </p>
             </div>
-            <div className="why_choose_image">
-              <img src="/Strategic-Planning.jpg" />
-            </div>
+           
           </div>
 
           <div className="why_choose_flex">
-            <div className="why_choose_image">
+            <div className="why_choose_image mobile_image">
               <img src="/operation-efficiency.jpg" />
             </div>
             <div className="why_choose">
@@ -42,11 +42,16 @@ const Services = () => {
 
               </p>
             </div>
+            <div className="why_choose_image desktop_image">
+              <img src="/operation-efficiency.jpg" />
+            </div>
 
           </div>
 
           <div className="why_choose_flex">
-
+            <div className="why_choose_image">
+              <img src="/Marketing-research.jpg" />
+            </div>
             <div className="why_choose">
               <h4>Market Research and Analysis
               </h4>
@@ -56,14 +61,12 @@ const Services = () => {
 
               </p>
             </div>
-            <div className="why_choose_image">
-              <img src="/Financial-Strategy.jpg" />
-            </div>
+            
           </div>
 
 
           <div className="why_choose_flex">
-            <div className="why_choose_image">
+            <div className="why_choose_image mobile_image">
               <img src="/Financial-Strategy.jpg" />
             </div>
             <div className="why_choose">
@@ -76,11 +79,16 @@ const Services = () => {
 
               </p>
             </div>
+            <div className="why_choose_image desktop_image">
+              <img src="/Financial-Strategy.jpg" />
+            </div>
 
           </div>
 
           <div className="why_choose_flex">
-
+            <div className="why_choose_image">
+              <img src="/Business-Development.jpg" />
+            </div>
             <div className="why_choose">
               <h4>Business Development
 
@@ -91,13 +99,11 @@ const Services = () => {
 
               </p>
             </div>
-            <div className="why_choose_image">
-              <img src="/core-values.jpg" />
-            </div>
+           
           </div>
 
           <div className="why_choose_flex">
-            <div className="why_choose_image">
+          <div className="why_choose_image mobile_image">
               <img src="/change-management.jpg" />
             </div>
             <div className="why_choose">
@@ -108,6 +114,9 @@ const Services = () => {
 
 
               </p>
+            </div>
+            <div className="why_choose_image desktop_image">
+              <img src="/change-management.jpg" />
             </div>
 
           </div>
