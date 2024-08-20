@@ -2,10 +2,7 @@
   margin-top: 80px;
 }
 
-.services-row p {
-  text-align: center;
 
-}
 
 .service-flex {
   display: flex;
@@ -14,9 +11,6 @@
   gap: 40px;
 }
 
-.service-flex p {
-  text-align: center;
-}
 
 .services {
   background-color: #ddedeb;

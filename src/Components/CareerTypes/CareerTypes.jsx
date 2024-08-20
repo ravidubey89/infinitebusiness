@@ -5,15 +5,14 @@ import { LuTarget } from "react-icons/lu";
 const CareerTypes = () => {
   const data = CareerTypesData;
   return (
-    <div className="services-row">
+    <div className="insight-row">
       <div className="container">
-        <h2>Types of Carriers We Work With</h2>
+        <h2>Insights</h2>
 
-        <div className="service-flex">
+        <div className="insight-flex">
           {data.service.map((item) => {
             return (
-              <div className="services">
-                <a href={item.icon}></a>
+              <div className="insight">
                 <strong>{item.heading}</strong>
                 <p>{item.description}</p>
               </div>

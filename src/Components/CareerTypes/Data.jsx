@@ -1,22 +1,24 @@
 const CareerTypesData = {
   service: [
     {
-      icon: "/loaded-truck.png",
-      heading: "Owner-Operators",
+
+      heading: "Industry Trends",
       description:
-        "We welcome independent owner-operators who are looking for consistent and rewarding freight opportunities. Our platform offers a variety of loads, flexible schedules, and the support you need to succeed as a small business owner.",
+        "Staying informed about the latest industry trends is crucial for maintaining a competitive edge. Our team of experts provides regular updates on the most significant developments in your industry, from technological advancements to regulatory changes. We offer actionable insights that help you anticipate and adapt to market shifts."
+
     },
     {
-      icon: "/truck.png",
-      heading: "Small to Medium-Sized Fleets",
+
+      heading: "Case Studies",
       description:
-        "For small to medium-sized fleet carriers, Infinite Epicenter offers the opportunity to expand your operations and increase your revenue. We provide access to a diverse range of freight, competitive rates, and the technology and support needed to manage your fleet efficiently.",
+        "Learn from real-world examples of how our services have helped businesses like yours. Our case studies provide detailed accounts of the challenges our clients faced, the solutions we implemented, and the results achieved. Each case study is designed to give you a better understanding of how Infinite Epicenter can help your business succeed."
     },
     {
-      icon: "/Freight.png",
-      heading: "Large Fleet Carriers",
+
+      heading: "Thought Leadership",
       description:
-        "We partner with large fleet carriers to provide comprehensive logistics solutions for our clients. Our collaborative approach ensures that we can meet the demands of large-scale operations, offering consistent freight, streamlined processes, and robust support services.",
+        "At Infinite Epicenter, we pride ourselves on being thought leaders in the business consultancy space. Our team regularly publishes articles, whitepapers, and reports on a wide range of topics, from strategic management to digital transformation. These resources are designed to provide you with the knowledge and insights you need to stay ahead of the curve."
+
     },
 
   ],

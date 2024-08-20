@@ -7,11 +7,17 @@
 
 }
 
+.why_choose_row h2 {
+  margin-bottom: 20px;
+}
+
 .why_choose_flex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  align-items: center;
+  margin: 5% 0;
 }
 
 .why_choose_flex p {
@@ -26,7 +32,25 @@
   width: 48%;
   position: relative;
   margin-top: 4%;
+
 }
+
+.why_choose p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.why_choose_image {
+  border: 1px solid #ccc;
+  width: 48%;
+  padding: 10px;
+
+}
+
+.why_choose_image img {
+  border-radius: 10px;
+}
+
 
 .why_choose ul {
   list-style: none;

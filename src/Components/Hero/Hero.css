@@ -1,7 +1,8 @@
 .hero {
   width: 100%;
   min-height: 400px;
-  background: linear-gradient(#000, rgba(0 0 0 / 80%)), url(../home-banner.webp);
+  background: linear-gradient(#0F67B1, #1815b6b3), url(../home-banner.webp);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,7 +31,7 @@
   width: 100%;
   height: 5px;
   position: absolute;
-  background-color: #dc850d;
+  background-color: #3FA2F6;
   bottom: -8px;
   max-width: 100px;
   left: 50%;
@@ -40,16 +41,16 @@
 }
 
 .hero_container a {
-  background-color: #cbf3f0;
+  background-color: #96C9F4;
   border-radius: 50px;
-  color: #11534d;
-  border: 3px solid #2ec4b6;
+  color: #000;
+  border: 3px solid #0F67B1;
   line-height: 1;
-  font-size: 20px;
+  font-size: 23px;
   margin-top: 30px;
   margin-left: 0;
   margin-right: 0;
-  padding: 20px 25px;
+  padding: 14px 10px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);

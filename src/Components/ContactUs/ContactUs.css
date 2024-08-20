@@ -5,7 +5,7 @@
 .contactHero {
     width: 100%;
     min-height: 400px;
-    background: linear-gradient(#000, rgba(0 0 0 / 80%)), url(../home-banner.webp);
+    background: linear-gradient(#0F67B1, #1815b6b3), url(../home-banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,7 +67,7 @@
 
 .contact-details svg {
     font-size: 32px;
-    color: #dc850d;
+    color: #3FA2F6;
 }
 
 .contact-details strong {

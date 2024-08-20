@@ -10,11 +10,11 @@ const Careers = () => {
       <div className="container">
         <h2>Who We Are
         </h2>
-        <h5 className='sub-heading'>About Infinite Epicenter
+        {/* <h5 className='sub-heading'>About Infinite Epicenter
 
         </h5>
         <p>Infinite Epicenter is a premier business consultancy firm committed to unlocking your business’s potential. Founded on principles of integrity, innovation, and excellence, we partner with you to navigate complex business landscapes and achieve sustainable growth.
-        </p>
+        </p> */}
 
       </div>
     </div>

@@ -15,8 +15,8 @@ const Product = () => {
       <Hero />
       <Careers />
       <WhyPartner />
-      {/* <CareerTypes/> */}
-      <OurCommitment />
+      <CareerTypes />
+      {/* <OurCommitment /> */}
       <Footer />
 
     </div>

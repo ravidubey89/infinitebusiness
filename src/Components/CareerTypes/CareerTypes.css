@@ -1,38 +1,28 @@
-.services-row {
+.insight-row {
   margin-top: 30px;
 }
 
-.services-row p {
-  text-align: center;
-
-}
-
-.services-row h2 {
-  margin-top: 5%;
-}
-
-.service-flex {
+.insight-flex {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.service-flex p {
-  text-align: center;
-}
 
-.services {
-  background-color: #f1f1ec;
-  text-align: center;
+
+.insight {
+  background-color: #e8f3f6;
   border-radius: 15px;
   border: 1px solid #ccc;
   width: 30%;
   position: relative;
-  margin-top: 8%;
+  margin-top: 3%;
+  padding: 20px;
+  text-align: justify;
 }
 
-.services img {
+.insight img {
   display: table;
   margin-bottom: 15px;
   max-width: 100%;
@@ -40,20 +30,21 @@
   border-radius: 6px;
 }
 
-.services strong {
+.insight strong {
   margin-bottom: 15px;
   display: block;
+  font-size: 22px;
 }
 
 @media(max-width:992px) {
-  .services {
+  .insight {
     width: 48%;
-    margin-top: 15%;
+
   }
 }
 
 @media(max-width:767px) {
-  .services {
+  .insight {
     width: 100%;
   }
 }
