@@ -22,7 +22,7 @@ const ServicesHome = () => {
         </div>
 
         <div className="why_choose_flex">
-          <div className="why_choose_image">
+          <div className="why_choose_image desktop_image">
             <img src="/core-values.jpg" />
           </div>
           <div className="why_choose">
@@ -35,6 +35,9 @@ const ServicesHome = () => {
               A startup company owner or entrepreneur may need the consulting services when the growth is not as per the plan or when the revenue model is not getting the desired traction or when the organization structure is not supporting enough to manage the operational challenges.
 
             </p>
+          </div>
+          <div className="why_choose_image mobile_image">
+            <img src="/core-values.jpg" />
           </div>
 
 
@@ -55,7 +58,7 @@ const ServicesHome = () => {
         </div>
 
         <div className="why_choose_flex">
-          <div className="why_choose_image">
+          <div className="why_choose_image des">
             <img src="/core-values.jpg" />
           </div>
           <div className="why_choose">
@@ -71,12 +74,7 @@ const ServicesHome = () => {
         </div>
 
 
-        <div className="service_footer">
-          <strong>Call to Action</strong>
-          <p>"Ready to take your business to the next level? Contact us today for a free consultation and discover how Infinite Epicenter can help you achieve your business goals."
 
-          </p>
-        </div>
       </div>
     </div>
   );

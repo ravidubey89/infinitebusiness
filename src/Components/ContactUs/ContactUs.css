@@ -5,7 +5,7 @@
 .contactHero {
     width: 100%;
     min-height: 400px;
-    background: linear-gradient(#0F67B1, #1815b6b3), url(../home-banner-new.jpg);
+    background: linear-gradient(rgba(15, 103, 177, 0.6), rgba(24, 21, 182, 0.5)), url(../home-banner-new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

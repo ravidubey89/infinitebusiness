@@ -104,6 +104,10 @@ img {
   }
 }
 
+.mobile_image {
+  display: none;
+}
+
 @keyframes wobble {
   16.65% {
     -webkit-transform: translateX(8px);
@@ -144,5 +148,15 @@ img {
 
   .container {
     padding: 0 5%;
+  }
+}
+
+@media(max-width:767px) {
+  .mobile_image {
+    display: block;
+  }
+
+  .desktop_image {
+    display: none;
   }
 }
