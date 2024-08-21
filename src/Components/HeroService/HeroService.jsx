@@ -4,7 +4,7 @@ import "./HeroService.css";
 const HeroService = () => {
   const scrollDown = () => {
     window.scrollBy({
-      top: 400, // Scroll down by 100px
+      top: 600, // Scroll down by 100px
       left: 0,
       behavior: 'smooth' // Smooth scroll
     });

@@ -1,6 +1,6 @@
 .herowhoweare {
   width: 100%;
-  min-height: 400px;
+  min-height: 600px;
   background: linear-gradient(rgba(15, 103, 177, 0.6), rgba(24, 21, 182, 0.5)), url(../rsz_group-diverse-business-people.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 32%;
+  top: 40%;
   left: 49%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -137,7 +137,7 @@
 @media(max-width:767px) {
   .hero_container {
     max-width: 340px;
-    top: 35%;
+    top: 42%;
   }
 
   .hero_container h1 {

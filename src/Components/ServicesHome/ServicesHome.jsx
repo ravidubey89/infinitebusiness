@@ -5,7 +5,7 @@ const ServicesHome = () => {
   return (
     <div className="why_choose_row" id="serviceHome">
       <div className="container">
-        <h2>Why Choose Us?</h2>
+        {/* <h2>Why Choose Us?</h2> */}
         <p>"Welcome to Infinite Epicenter, where your business success is our mission. In an ever-evolving marketplace, staying ahead of the curve is crucial. Our team of seasoned consultants is here to guide you through the complexities of today’s business environment, ensuring you have the insights, strategies, and tools to thrive."
         </p>
         <div className="why_choose_flex">

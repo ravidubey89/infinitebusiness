@@ -4,7 +4,7 @@
 
 .contactHero {
     width: 100%;
-    min-height: 400px;
+    min-height: 600px;
     background: linear-gradient(rgba(15, 103, 177, 0.6), rgba(24, 21, 182, 0.5)), url(../home-banner-new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@
     max-width: 665px;
     margin: 0 auto;
     position: absolute;
-    top: 24%;
+    top: 44%;
     left: 49%;
     transform: translate(-50%, -50%);
     text-align: center;

@@ -7,6 +7,7 @@ import CareerTypes from '../Components/CareerTypes/CareerTypes';
 import ServicesHome from '../Components/ServicesHome/ServicesHome';
 import HeroHome from '../Components/HeroHome/HeroHome';
 import Testimonials from '../Components/Testimonials/Testimonials';
+import TestimonialsSlider from '../Components/TestimonialsSlider/TestimonialsSlider';
 
 
 const Home = () => {
@@ -15,7 +16,8 @@ const Home = () => {
       <Navbar />
       <HeroHome />
       <ServicesHome />
-      <Testimonials/>
+      {/* <Testimonials/> */}
+      <TestimonialsSlider/>
       <CareerTypes />
       
       <Footer />

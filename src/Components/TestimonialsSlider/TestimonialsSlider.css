@@ -1,0 +1,28 @@
+.testimonialsDetails{
+    background-color: #e8f3f6;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+    max-width: 555px;
+    margin-bottom: 55px;
+}
+
+.testimonialsDetails h3{
+    margin: 20px 0;
+}
+.testimonialsDetails p {
+    margin-top: 20px;
+}
+
+@media(max-width:481px){
+    .testimonialsDetails {
+        max-width: 310px;
+    }
+    .testimonialsDetails h3 {
+       
+        font-size: 16px;
+    }
+}
