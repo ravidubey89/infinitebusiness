@@ -5,79 +5,68 @@ const RefundPolicy = () => {
   return (
     <div className='commonContents'>
       <div className='container'>
-        <h3>Privacy Policy</h3>
-        <h5 className='sub-heading'>Privacy Policy for Infinite Epicenter
+        <h3>Refund Policy</h3>
+        {/* <h5 className='sub-heading'>Privacy Policy for Infinite Epicenter
 
-        </h5>
-        <b>Effective Date: 16-8-2024
-        </b>
-        <p> Infinite Epicenter ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.infinite-epicenter.com] or engage with our business consultancy services. Please read this policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+        </h5> */}
+
+        <p> At Infinite Epicenter, we strive to provide high-quality services that meet the expectations of our clients. However, we understand that there may be instances where refunds or cancellations are required. Please carefully read our policy outlined below:
         </p>
         <div className='privacy-policy-repeat'>
-          <strong>Information We Collect</strong>
-          <p><b>Personal Data:</b> We may collect personally identifiable information, such as your name, email address, phone number, and company details when you voluntarily submit it to us through forms or during consultations.
+          <strong>Cancellation of Services</strong>
+          <p>Customers may request the cancellation of services within [specify time period, e.g., 24 hours] after placing an order.
           </p>
-          <p><b>Non-Personal Data:</b> We may collect non-personal information such as your IP address, browser type, and usage data when you visit our site. This information helps us understand how our site is used and improve your experience.
+          <p>To cancel a service, please contact our customer support team at [email/contact number].
           </p>
-          <p><b>Cookies:</b> We use cookies and similar tracking technologies to track the activity on our site and store certain information. Cookies are files with small amounts of data that are sent to your browser from a website and stored on your device.
+          <p>If the service has already commenced or has been fully provided, cancellation may not be possible.
           </p>
         </div>
 
 
         <div className='privacy-policy-repeat'>
-          <strong>How We Use Your Information</strong>
-          <p>To Provide Services: We use your personal information to offer our business consultancy services, respond to inquiries, and fulfill any other purpose for which you provide the information.
+          <strong>Refund Eligibility</strong>
+          <b>Refunds will be provided under the following circumstances:</b>
+          <p>The service was not delivered as per the agreed terms.
+            The service delivery was delayed beyond the specified timeframe due to reasons within our control.
           </p>
-          <p>To Improve Our Website: We analyze non-personal data to improve our website’s functionality, design, and content.
-          </p>
-          <p>Marketing: We may use your information to contact you with newsletters, marketing, or promotional materials unless you opt-out of such communications.</p>
-          <p>Compliance and Protection: We may use your data to comply with legal obligations, resolve disputes, and enforce our agreements.
-          </p>
-        </div>
-
-        <div className='privacy-policy-repeat'>
-          <strong>How We Share Your Information</strong>
-          <p>Third-Party Service Providers: We may share your information with third-party service providers who perform services on our behalf, such as hosting or analytics.</p>
-          <p>Legal Requirements: We may disclose your personal information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
-          </p>
-          <p><b>Business Transfers:</b> If Infinite Epicenter is involved in a merger, acquisition, or asset sale, your personal data may be transferred.
-          </p>
-        </div>
-
-        <div className='privacy-policy-repeat'>
-          <strong>Data Security</strong>
-          <p>We employ a variety of security measures to protect the safety of your personal information. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
-          </p>
-        </div>
-
-        <div className='privacy-policy-repeat'>
-          <strong>Your Privacy Rights</strong>
-          <p>You have the right to access, correct, or delete your personal data. You may also opt out of receiving marketing communications from us. To exercise any of these rights, please contact us at [contact@infinite-epicenter.com].
-          </p>
-        </div>
-
-        <div className='privacy-policy-repeat'>
-          <strong>Changes to This Privacy Policy
-          </strong>
-          <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page with an updated effective date.
-          </p>
-        </div>
-        <div className='privacy-policy-repeat'>
-          <strong>Contact Us
-          </strong>
-          <p>If you have any questions about this Privacy Policy, please contact us at:
-
+          <p>A written refund request is submitted within [specify timeframe, e.g., 7 days] from the date of purchase.
           </p>
           <b>
-            Infinite Epicenter <br />
+            Refunds will not be granted for:
           </b>
-          <p>
-            534 Mono St Manteca CA 95337 <br />
-            2092173571 <br />
-            support@infiniteepicenter.com <br />
+          <ul>
+            <li>Change of mind after the service has been provided.</li>
+            <li>Misuse or mishandling of the service by the customer.</li>
+            <li>Services already in progress or completed at the time of the refund request.</li>
+          </ul>
+        </div>
 
+        <div className='privacy-policy-repeat'>
+          <strong>Refund Process</strong>
+          <p>Refunds will be processed within [specify timeframe, e.g., 7-14 business days] from the date of approval.</p>
+          <p>Refunds will be credited to the original payment method used for the transaction.
+            In the event of a delay, please allow additional time for your bank or credit card provider to process the refund.
+          </p>
+
+        </div>
+
+        <div className='privacy-policy-repeat'>
+          <strong>Non-Refundable Services</strong>
+          <b>Certain services are non-refundable, including but not limited to:</b>
+          <ul>
+            <li>Custom consulting services</li>
+            <li>One-time project fees</li>
+            <li>Digital marketing campaigns already launched</li>
+          </ul>
+        </div>
+
+        <div className='privacy-policy-repeat'>
+          <strong>Disputes</strong>
+          <p>In case of any disputes regarding cancellations or refunds, we encourage customers to reach out to our support team. We will make every effort to resolve the issue promptly.
           </p>
         </div>
+
+
 
       </div>
     </div>
